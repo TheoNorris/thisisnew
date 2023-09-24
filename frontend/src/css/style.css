@@ -1,0 +1,37 @@
+.game-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10%;
+  border: 1px solid hotpink;
+  padding: 50px;
+  text-align: center;
+}
+
+.choice-div {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  border: 1px solid hotpink;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.player-div {
+  border: 1px solid hotpink;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.rockpaper-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.reset-button {
+  width: 200px;
+  height: 50px;
+  margin: 20px auto;
+  background-color: aquamarine;
+}
