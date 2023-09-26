@@ -575,8 +575,6 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 
 },{}],"gLLPy":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "createGame", ()=>createGame);
 var _backendcalls = require("./modules/backendcalls");
 var _paperJpg = require("./images/paper.jpg");
 var _paperJpgDefault = parcelHelpers.interopDefault(_paperJpg);
@@ -708,7 +706,7 @@ parcelHelpers.export(exports, "displayHighScores", ()=>displayHighScores);
 let result = {};
 const scoreDiv = document.getElementById("score-div");
 async function getHighScore() {
-    const url = "http://localhost:3008/highscore"; // Corrected URL
+    const url = "http://localhost:3008/highscore";
     try {
         const response = await fetch(url);
         if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);

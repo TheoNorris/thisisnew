@@ -1,3 +1,7 @@
+form {
+  text-align: center;
+}
+
 .game-div {
   display: flex;
   justify-content: center;

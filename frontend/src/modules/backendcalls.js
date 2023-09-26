@@ -4,7 +4,7 @@ let result = {};
 const scoreDiv = document.getElementById("score-div");
 
 async function getHighScore() {
-  const url = "http://localhost:3008/highscore"; // Corrected URL
+  const url = "http://localhost:3008/highscore";
 
   try {
     const response = await fetch(url);

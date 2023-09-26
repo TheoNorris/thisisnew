@@ -18,7 +18,7 @@ const form = document.querySelector("form");
 
 form.addEventListener("submit", createGame);
 
-export function createGame(event) {
+function createGame(event) {
   event.preventDefault();
 
   clearScoreDiv();
