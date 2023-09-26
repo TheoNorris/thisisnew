@@ -1,4 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Sedgwick+Ave+Display&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 form {
+  text-align: center;
+}
+
+.game-head {
+  font-size: 35px;
+}
+
+h1 {
+  font-family: "Sedgwick Ave Display", cursive;
+  font-size: 35px;
+}
+
+#score-div {
   text-align: center;
 }
 
@@ -7,25 +26,28 @@ form {
   justify-content: center;
   flex-direction: column;
   margin: 10%;
-  border: 1px solid hotpink;
   padding: 50px;
   text-align: center;
+  background-color: #b4d9ff;
+  border-radius: 30px;
 }
 
 .choice-div {
   display: flex;
   flex-direction: row;
   padding: 30px;
-  border: 1px solid hotpink;
+  border: 1px solid rgb(255, 255, 255);
   flex-wrap: wrap;
   gap: 50px;
+  border-radius: 25px;
 }
 
 .player-div {
-  border: 1px solid hotpink;
+  border: 1px solid rgb(255, 255, 255);
   padding: 30px;
   display: flex;
   flex-direction: column;
+  border-radius: 25px;
 }
 
 .rockpaper-div {
@@ -38,4 +60,7 @@ form {
   height: 50px;
   margin: 20px auto;
   background-color: aquamarine;
+}
+
+#score-div {
 }
