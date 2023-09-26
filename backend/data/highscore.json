@@ -1,1 +1,7 @@
-[{"name":"Theo","score":8},{"name":"Random","score":7},{"name":"Bob","score":6},{"name":"Chuck Norris","score":5},{"name":"Random","score":5}]
+[
+  { "name": "Beatrice", "score": 5 },
+  { "name": "Betty", "score": 4 },
+  { "name": "Bob", "score": 3 },
+  { "name": "Barry", "score": 2 },
+  { "name": "Blobbywobbydoodaa", "score": 5 }
+]
